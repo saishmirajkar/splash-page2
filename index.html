@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tunable Biosystem</title>
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <!-- Splash Overlay -->
+  <div id="splash-overlay" class="splash-overlay">
+    <div class="splash-container">
+      <video 
+        id="splash-video" 
+        class="splash-video" 
+        muted 
+        playsinline
+        poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='600'%3E%3Crect fill='%23ffffff' width='800' height='600'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' fill='%23333' font-size='24' font-family='system-ui'%3ELoading...%3C/text%3E%3C/svg%3E"
+      >
+        <source src="/animation.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <main id="main-content" class="main-content">
+    <div class="content-wrapper">
+      <h1>Tunable Biosystem</h1>
+      <p>Welcome to our platform</p>
+      <!-- Add your existing page content here -->
+    </div>
+  </main>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

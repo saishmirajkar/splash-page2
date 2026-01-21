@@ -55,6 +55,16 @@ body {
   background-color: transparent;
 }
 
+.splash-animation {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  border-radius: 0;
+  box-shadow: none;
+  background-color: transparent;
+  display: block;
+}
+
 /* Main Content */
 .main-content {
   min-height: 100vh;
@@ -90,20 +100,15 @@ body {
     max-width: 100%;
     border-radius: 0;
   }
-  
-  .skip-btn {
-    padding: 8px 20px;
-    font-size: 13px;
+
+  .splash-animation {
+    max-width: 100%;
+    border-radius: 0;
   }
 }
 
 @media (max-width: 480px) {
   .splash-container {
     width: 90%;
-  }
-  
-  .skip-btn {
-    padding: 8px 16px;
-    font-size: 12px;
   }
 }
